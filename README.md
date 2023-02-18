@@ -6,22 +6,23 @@
 create a new directory, and initialize it with git-specific functions
 git init my-repo
 
-//change into the `my-repo` directory
-cd my-repo
+change into the `my-repo` directory
+'cd my-repo'
 
-//create the first file in the project
-touch README.md
+create the first file in the project
 
-//git isn't aware of the file, stage it
-git add README.md
+'touch README.md'
 
-//take a snapshot of the staging area
-git commit -m "add README to initial commit"
+git isn't aware of the file, stage it
+'git add README.md'
 
-//provide the path for the repository you created on github
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git  //需要未建立分支，需要将路经smaster到main
+take a snapshot of the staging area
+'git commit -m "add README to initial commit"'
 
-//git branch n -m master main
+provide the path for the repository you created on github
+'git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git ' //需要未建立分支，需要将路经smaster到main
 
-//push changes to github
-git push --set-upstream origin main
+git branch n -m master main
+
+push changes to github
+'git push --set-upstream origin main'
